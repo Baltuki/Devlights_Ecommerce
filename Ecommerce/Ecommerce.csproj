@@ -10,4 +10,9 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Ecommerce_Business_Acess_Layer\Business_Acess_Layer.csproj" />
+    <ProjectReference Include="..\Ecommerce_Data_Access_Layer\Data_Access_Layer.csproj" />
+  </ItemGroup>
+
 </Project>
